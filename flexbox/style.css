@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+.first-screen-bg {
+    background-image: url('./asserts/first-screen.png');
+    height: 800px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+    
+.logo {
+    position: absolute;
+    left: 40px;
+}
+ 
+.nav {
+    width: 100%;
+}
+    
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    min-height: 80px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 91, 193, .6);
+}
+    
+.nav__list__items {
+    margin-right: 27px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+    
