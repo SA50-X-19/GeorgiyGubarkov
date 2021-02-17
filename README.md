@@ -9,7 +9,7 @@
 - [x] base_html
 - [ ] base_css
 - [x] blocks
-- [ ] flexbox
+- [x] flexbox
 
 ## Требования к отчётам
 
@@ -52,6 +52,28 @@
   - Внутренние отступы (padding)
 
 ---
+
+### **blocks**
+
+- Стандарты
+- Типы верстки
+  - Табличная вёрстка
+  - Блочная вёрстка
+- Блочная вёрска
+  - Как сделать?
+  - Ширина и высота
+
+### **flexbox**
+
+- Что такое flexbox
+  - flex-conteiner
+  - flex-items
+  - Главная и поперечная оси
+- Свойство display: flex
+- Позиционирование flex-items
+  - flex-direction
+  - justyfi-content
+  - align-items
 
 ## Полезные ссылки
 
