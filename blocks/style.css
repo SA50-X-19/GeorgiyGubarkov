@@ -1,0 +1,23 @@
+.first {
+    width: 50%;
+    height: 250px;
+    background-color: rgb(255, 0, 0);
+}
+
+.second {
+    width: 120px;
+    height: 200px;
+    background-color: rgb(0, 0, 255);
+}
+
+.percent_height {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(76, 0, 148);
+}
+
+.third {
+    width: 25%;
+    height: 250px;
+    background-color: rgb(0, 255, 0);
+}
