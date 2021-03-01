@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">
+            <h1>Псевдоклассы для анимаций</h1>
+            <h2>Simple animations</h2>
+            <p>
+                :focus — ссылки, а также элементы форм, которые активированы посредством 
+                курсора мыши или на которые перешли с помощью клавиатуры (кнопка TAB); <br>
+
+                :hover — ссылки, а также другие элементы, стили применяются при наведении 
+                пользователем на элемент;<br>
+
+                :active — выбирает элемент, активированный пользователем с помощью клика мышки. 
+                Обычно применяется для ссылок, но может отбирать и другие элементы на странице.
+            </p>
+        </div>
+        
+        <div class="pclass">
+            <a href="#">
+                <div class="hover__simple">
+                        Я кнопка class:hover
+                </div>
+            </a>
+            <div class="active">
+                Я актив class:active
+            </div>
+            <div class="form">
+                <h3>Это поле - input и class:focus</h3>
+                <input type="text" class="focus">
+            </div>
+        </div>
+
+        <div class="title">
+            <h2>Transition animations</h2>
+            <p>
+                CSS3-переходы позволяют анимировать исходное значение CSS-свойства на новое 
+                значение с течением времени, управляя скоростью смены значений свойств. 
+                Большинство свойств меняют свои значения за 16 миллисекунд, поэтому рекомендуемое 
+                время стандартного перехода — 200ms.
+
+                Смена свойств происходит при наступлении определенного события, которое 
+                описывается соответствующим псевдоклассом. Чаще всего используется псевдокласс 
+                :hover.
+            </p>
+
+            <p>
+                Имеет следующий вид: <strong> transition: values;</strong>
+            </p>
+        </div>
+
+        <div class="transition">
+            <div class="container">
+              <span>0.5s</span>
+              <div class="box1 box"></div>
+            </div>
+             <div class="container">
+              <span>1s</span>
+              <div class="box2 box"></div>
+            </div>
+             <div class="container">
+              <span>2s</span>
+              <div class="box3 box"></div>
+            </div>
+        </div>
+
+        <div class="title">
+            <h2>Transform & transition animations</h2>
+            <p>Свойство задаёт вид преобразования элемента. Свойство описывается с 
+                помощью функций трансформации, которые смещают элемент относительно его текущего 
+                положения на странице или изменяют его первоначальные размеры и форму. 
+                Не наследуется.</p>
+            <p> Имеет следующий вид: <strong>transform: function(var); </strong></p>
+        </div>
+        <div class="wrap"><div class="one"><kbd>translateX(20px)</kbd></div></div>
+            <div class="wrap"><div class="two"><kbd>translateY(-20px)</kbd></div></div>
+            <div class="wrap"><div class="three"><kbd>translate(-20px, 20px)</kbd></div></div>
+            <div class="wrap"><div class="four"><kbd>scaleX(-1)</kbd></div></div>
+            <div class="wrap"><div class="five"><kbd>scaleY(1.2)</kbd></div></div>
+            <div class="wrap"><div class="six"><kbd>scale(1.2, 0.5)</kbd></div></div>
+            <div class="wrap"><div class="seven"><kbd>rotate(720deg)</kbd></div></div>
+            <div class="wrap"><div class="eight"><kbd>skewX(20deg)</kbd></div></div>
+            <div class="wrap"><div class="nine"><kbd>skewY(-20deg)</kbd></div></div>
+            <div class="wrap"><div class="ten"><kbd>skew(-20deg, 20deg)</kbd></div></div>
+            <div class="wrap"><div class="eleven"><kbd>matrix(1.2,0,0.5,1.2,50,0)</kbd></div></div>
+    </div>
+</body>
+</html>
